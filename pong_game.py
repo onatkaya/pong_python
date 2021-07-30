@@ -98,7 +98,7 @@ def start():
 
     #changing sound file
     winsound.PlaySound(None, winsound.SND_PURGE)
-    winsound.PlaySound("rasputin.wav", winsound.SND_ASYNC | winsound.SND_ALIAS | winsound.SND_LOOP)
+    winsound.PlaySound("tetris.wav", winsound.SND_ASYNC | winsound.SND_ALIAS | winsound.SND_LOOP)
 
     wn.listen()
 
